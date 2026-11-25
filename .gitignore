@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Application Biometric & Personal Data (Keep repo clean)
+# Student face images
+images/students/*
+!images/students/.gitkeep
+
+# Temporary images
+images/temp/*
+!images/temp/.gitkeep
+
+# Real student biometric encodings
+encodings/*.json
+!encodings/.gitkeep
+
+# Real student database CSVs
+database/*.csv
+!database/.gitkeep
+
+# Daily attendance CSV records
+attendance/*.csv
+!attendance/.gitkeep
+
+# Generated reports & graphs
+reports/*.csv
+reports/*.xlsx
+reports/*.pdf
+reports/graphs/*
+!reports/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Local data backups
+*_backup*/
+*.bak
